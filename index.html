@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form action="loginUser.php" method="post" target="_blank" class="login-form">
+      <input type="text" class="form-control" id="username" placeholder="username" name="username" required>
+      <input type="password" class="form-control" id="password" placeholder="password" name="password" required>
+      <br>
+      <button type="submit">Log In</button>
+      <p class="message">Not registered? <a href="http://bookingup.web.engr.illinois.edu/createNewAccount.html">Create an account</a></p>
+    </form>
+  </div>
+</div>

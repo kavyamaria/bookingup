@@ -1,0 +1,34 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="createNewAccount.css">
+  <script type="text/javascript" src="createNewAccount.js"></script>
+</head>
+
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form action="createNew.php" method="post" target="_blank" class="login-form">
+      <input type="text" class="form-control" id="username" placeholder="username" name="username" required>
+      <input type="password" class="form-control" id="password" placeholder="password" name="password" required>
+      <br>
+      <label for="namez">My name is:</label>
+      <br>
+      <input type="text" class="form-control" id="name" placeholder="John Doe" name="name" required>
+      <input type="text" class="form-control" id="bio" placeholder="Add a Bio!" name="bio" required>
+      <input type="text" class="form-control" id="image" placeholder="Add a Profile Picture (URL)." name="image" required>
+      <label for="genderz">I am a:</label>
+      <br>
+      <input type="text" class="form-control" id="gender" placeholder="Type 'F' or 'M' exactly." name="gender" required>
+      <label for ="gpref">I prefer:</label>
+      <br>
+      <input type="text" class="form-control" id="pref" placeholder="Type 'F' or 'M' exactly." name="pref" required>
+      <button type="submit">Create Account</button>
+      <p class="message">Already have an account? <a href="http://bookingup.web.engr.illinois.edu/index.html">Login</a></p>
+    </form>
+  </div>
+</div>
